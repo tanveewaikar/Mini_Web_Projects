@@ -3,7 +3,7 @@
 Welcome to my **Mini Web Projects** repository!  
 This repo contains small but creative frontend projects built using **HTML**, **CSS**, and **JavaScript** as part of my **Full Stack Development learning journey**.
 
-Each project is designed to improve my coding skills and strengthen my understanding of web fundamentals before moving into advanced topics like React, Node.js, and MongoDB.
+Each project is designed to improve my coding skills and strengthen my understanding of web fundamentals before moving into advanced topics like React, Node.js, Sql, python.
 
 ---
 
