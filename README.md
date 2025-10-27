@@ -28,6 +28,8 @@ Includes **Light/Dark Mode** for a modern look.
 <img width="1893" height="848" alt="image" src="https://github.com/user-attachments/assets/0f6d45fb-5402-48a9-94cb-729178f0c184" />
 <img width="1883" height="842" alt="image" src="https://github.com/user-attachments/assets/da988dd8-879f-4764-9765-28aac913ccf8" />
 <img width="1889" height="854" alt="image" src="https://github.com/user-attachments/assets/6b39db32-5a75-4f1a-84a7-e390afd7563c" />
+<img width="1881" height="837" alt="image" src="https://github.com/user-attachments/assets/05de7657-01ea-4379-a8dc-3b8f3494d9e6" />
+
  
 ## 💡 About Me
 Hi, I'm **Tanvee Waikar** — a BE IT Engineering student and an aspiring Full Stack Developer.  
