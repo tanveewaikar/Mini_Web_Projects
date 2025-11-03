@@ -12,6 +12,29 @@ body{
     align-items: center;
     background: linear-gradient(135deg,#2a2a88,#87e8e1);
 }
+
+h1{
+    font-family:Frijole ,cursive;
+    letter-spacing: 5px;
+    font-size: 6vh;
+    color: black;
+    text-shadow: 3px 3px 10px palevioletred;
+    animation: bounce 2s ease infinite;
+}
+
+/* bounce keyframes */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
 .todo-container{
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
@@ -56,6 +79,44 @@ body{
 }
 
 #addbtn:hover{
-    background-color:#2a75d6 ;
+    background-color:#1469d8 ;
     font-weight: 500;
+}
+
+ul{
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+    
+}
+
+li.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+button.delete{
+    background-color: rgb(209, 109, 129);
+    border: none;
+    padding: 10px 5px;
+    color: white;
+    box-shadow: 3px 3px 5px, rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button.delete:hover{
+background-color: crimson;
 }
