@@ -1,0 +1,205 @@
+body{
+    background-color: white;
+    height: auto;
+    font-family: 'Merriweather', serif;
+}
+
+/* heaser styling */
+.firstdiv{
+    width: 100%;
+    height: 20vh;
+    background-color:rgb(180, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstdivChild{
+    background-color:rgb(180, 179, 179);
+}
+
+.firstdivChild h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 8vh;
+    color: #002366
+}
+
+/* Banner Styling  */
+.IntroM {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  /* margin: 20px auto; */
+  gap: 5vh;
+}
+
+/* Banner / Image slider */
+.IntroChild {
+    flex: 1 1 45%;
+    position: relative;
+    height: 109vh; /* fixed height */
+    overflow: hidden;
+}
+
+.imgSlider {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    animation: slide 16s infinite;
+}
+
+
+.imgSlider:nth-child(1) { animation-delay: 0s; }
+.imgSlider:nth-child(2) { animation-delay: 4s; }
+.imgSlider:nth-child(3) { animation-delay: 8s; }
+.imgSlider:nth-child(4) { animation-delay: 12s; }
+
+@keyframes slide {
+  0%, 100% { opacity: 0; }
+  10%, 30% { opacity: 1; }
+  40% { opacity: 0; }
+}
+
+/* Text block */
+.IntroInfo {
+  flex: 1 1 50%;
+  background-color: #f5f5f5;
+  color: #002366;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-right: 1.5px solid #ffdc14;
+  border-bottom:1.5px solid #ffdc14;
+  box-shadow: 2px 2px 7px #ffdc14;
+}
+
+.IntroInfo p {
+  font-family: 'Merriweather', serif;
+  text-align: justify;
+  line-height: 1.6;
+  margin: 0;
+  
+}
+
+/* card styling  */
+
+.card {
+  width: 100%;
+  height: 130vh;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-header {
+  height: 30vh;
+  width: 22%;
+  margin-top: 3vh;
+  background-color: white;
+  border-radius: 5vh;
+  position: relative;
+  
+}
+
+.card-header img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 2px solid #ffdc14;
+}
+
+.card-info {
+  max-height: 100vh;
+  width: 100%;
+  background-color:rgb(237, 230, 230);
+  font-weight: bold;
+  border-radius: 0vh 0vh 5vh 5vh;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding: 0; 
+}
+
+.card-header:hover .card-info {
+ display: block;
+ box-shadow: 0px 2px 2px black;
+ 
+}
+
+.card-info ul {
+  padding-left: 1.2rem;
+  margin-left: 0.7vh;
+  font-size: 3vh;
+  line-height: 5vh;
+}
+
+.card-info li {
+  margin-bottom: 0.2vh;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .introM {
+        flex-direction: column;
+        height: auto;
+    
+    }
+
+    .introChild, .IntroInfo {
+        width: 100%;
+        height: auto;
+    }
+
+    .introChild {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgSlider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 5vh;
+}
+
+
+    .IntroInfo p {
+        margin: 2vh;
+        font-size: 2.2vh;
+    }
+  .card {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .card-header {
+    width: 90%;
+    margin-bottom: 2vh;
+  }
+}
+
+
