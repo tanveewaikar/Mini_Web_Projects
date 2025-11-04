@@ -88,5 +88,5 @@ I’m passionate about building creative and functional web applications.
 📬 Contact
 📧 Email: tanveewaikar1311@gmail.com
 📱 Phone: 9763587589
-💼 LinkedIn: Tanvee Waikar
+💼 LinkedIn: https://www.linkdin.com/in/tanvee-waikar-a32613369
 🌐 GitHub: @tanveewaikar 
