@@ -48,8 +48,34 @@ The design includes a bouncing animated title and responsive layout for all devi
 <img width="1884" height="843" alt="image" src="https://github.com/user-attachments/assets/ea16cd7c-1a67-4d9f-9294-5d45fd1fb9c4" />
 <img width="1754" height="835" alt="image" src="https://github.com/user-attachments/assets/032bbe5c-f8d6-4d9a-80af-822199186cf1" />
 
+🏏 **3. Tribute Page – Virat Kohli**
 
- 
+A beautifully designed tribute page dedicated to Virat Kohli, one of the greatest cricketers of all time. The page highlights his journey, achievements, and records, along with impactful visuals and responsive design.
+
+🔧 **Tech Stack:**
+
+HTML
+
+CSS (Flexbox, box-shadow, borders, Animation)
+
+✨ Features:
+
+Elegant tribute layout with image and biography section
+
+Highlighted achievements and records using clean design
+
+Attractive color scheme 
+
+Responsive and well-structured for all screen sizes
+
+📸 Preview:
+<img width="1811" height="868" alt="image" src="https://github.com/user-attachments/assets/c67ae751-7077-435f-bae0-f6d901d0e71a" />
+<img width="1672" height="792" alt="image" src="https://github.com/user-attachments/assets/8fc4ff06-07a4-406b-a09a-c42e75044541" />
+<img width="1665" height="776" alt="image" src="https://github.com/user-attachments/assets/1aa4e740-a95b-4f79-a19d-4421e0399cd7" />
+<img width="1683" height="769" alt="image" src="https://github.com/user-attachments/assets/8fe580d7-aec1-4139-83a4-5b9b62933ca1" />
+<img width="1656" height="786" alt="image" src="https://github.com/user-attachments/assets/d43ad41b-0fd3-4392-b363-a6770e3efee4" />
+
+
 ## 💡 About Me
 Hi, I'm **Tanvee Waikar** — a BE IT Engineering student and an aspiring Full Stack Developer.  
 I’m passionate about building creative and functional web applications.  
