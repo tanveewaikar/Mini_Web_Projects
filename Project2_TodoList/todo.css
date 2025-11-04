@@ -120,3 +120,74 @@ button.delete{
 button.delete:hover{
 background-color: crimson;
 }
+
+/* responsive design */
+
+@media(max-width:768px){
+    body{
+        padding: 20px;
+    }
+    .todo-container{
+        width: 90%;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    h1{
+    letter-spacing: 5px;
+    font-size: 5vh;
+    animation: bounce 2s ease infinite;
+    }
+    .input-section{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    }
+    #taskInput {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    }
+    #addbtn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    }
+
+    .input-section{
+    margin: 10px;
+   }
+   .input-section button{
+    margin-top: 10px;
+   }
+    ul #taskList li {  
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    font-size: 1rem;
+    }
+    .delete {
+    align-self: flex-end;
+    }
+}
+
+@media (max-width: 480px) {
+   h1 {
+    font-size: 4.5vh;
+   }
+
+   .todo-container {
+    width: 100%;
+    padding: 15px;
+   }
+
+   #taskInput {
+    font-size: 0.9rem;
+   }
+   .input-section{
+    margin: 10px;
+   }
+   .input-section button{
+    margin-top: 10px;
+   }
+}
+
